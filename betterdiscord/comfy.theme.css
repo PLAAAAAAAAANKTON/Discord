@@ -27,7 +27,7 @@
 
 :root {
   /* ═══════『 💨 ・ Animations 』- If you don't want a high CPU usage, comment the line below */
-  --disable-animations: 2s channel-unread infinite;
+  /*--disable-animations: 2s channel-unread infinite;*/ 
 
   /* ═══════『 ⚙️ / 🎤 / 🎧 ・ User button 』═══════
 *
@@ -41,7 +41,7 @@
   --user-buttons-spacing: 8px;
 
   /* Color - Default value : #096DC0 */
-  --user-buttons-color: #096dc0;
+  --user-buttons-color: #096DC0;
 
   /* ═══════『 ⭕ Roundness settings 』═══════
 *
@@ -51,7 +51,7 @@
 */
 
   /* Avatars - Default value : 5px */
-  --avatar-radius: 5px;
+  --avatar-radius: 8px;
 
   /* Status - Default value : 3px */
   --status-radius: 3px;
@@ -62,7 +62,7 @@
   /* ═══════『 😃 Colored emoji picker 』═══════
 *   Change the value to "100%" if you want the default one */
 
-  --colored-emoji: grayscale(0%);
+  --colored-emoji: grayscale(50%);
 
   /* ═══════『 📜 Server/channel list 』═══════ */
 
@@ -100,7 +100,7 @@
   --online: #43b581;
 
   /* Idle - Default value : #FAA61A */
-  --iddle: #faa61a;
+  --idle: #faa61a;
 
   /* Do Not Disturb - Default value : #F04747 */
   --dnd: #f04747;

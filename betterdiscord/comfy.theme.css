@@ -7,9 +7,8 @@
 * @donate https://ko-fi.com/nyria
 */
 @import "https://raw.githubusercontent.com/PLAAAAAAAAANKTON/Discord/master/betterdiscord/main.css";
-@import "https://xcruxiex.github.io/themes/themes-cores/nocturnal.css";
+@import "https://raw.githubusercontent.com/PLAAAAAAAAANKTON/themes/master/themes-cores/nocturnal.css";
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css";
-@import "https://xcruxiex.github.io/themes/core/custom-font.css";
 @import "https://xcruxiex.github.io/themes/core/badges.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
@@ -54,13 +53,13 @@
 */
 
   /* Avatars - Default value : 5px */
-  --avatar-radius: 8px;
+  --avatar-radius: 12px;
 
   /* Status - Default value : 3px */
   --status-radius: 8px;
 
   /* Servers - Default value : 8px */
-  --server-radius: 8px;
+  --server-radius: 12px;
 
   /* ═══════『 😃 Colored emoji picker 』═══════
 *   Change the value to "100%" if you want the default one */
@@ -113,10 +112,6 @@
 
   /* Streaming - Default value : #593695 */
   --streaming: #593695;
-
-  /* Better Hljs */
-  --backgroundCode: #1e2731;
-  --backgroundName: rgba(0, 0, 0, .2);
   
   /* ═══════『 🔰 User popout 』═══════ */
 
@@ -145,7 +140,7 @@
   --rs-offline-color: #636b75;
   --rs-streaming-color: #643da7;
   --rs-invisible-color: #747f8d;
-  --rs-phone-visible: block;
+  --rs-phone-visible: none;
   --rs-phone-color: var(--rs-online-color);
 
   --customFont: 'gg sans', sans-serif;

@@ -6,7 +6,7 @@
 * @version 2.3
 * @donate https://ko-fi.com/nyria
 */
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css"); /* Radial Status */
+@import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css";
 @import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
@@ -54,7 +54,7 @@
   --avatar-radius: 8px;
 
   /* Status - Default value : 3px */
-  --status-radius: 3px;
+  --status-radius: 8px;
 
   /* Servers - Default value : 8px */
   --server-radius: 8px;
@@ -126,6 +126,22 @@
 *   Set it to "block" if you still want it */
 
   --discord-logo: none;
+  
+  /* ═══════『 Radial Status 』═══════ */
+  --rs-small-spacing: 2px;
+  --rs-large-spacing: 3px;
+  --rs-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #747f8d;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+
+  --customFont: 'gg sans', sans-serif;
 }
 
 .theme-dark {
@@ -150,20 +166,6 @@
   --scrollbar-thin-thumb: #141925;
   --activity-card-background: #101320;
   --input-background: #1e2233;
-  
-  /* Radial Status */
-  --rs-small-spacing: 2px;
-  --rs-large-spacing: 3px;
-  --rs-width: 2px;
-  --rs-avatar-shape: 50%;
-  --rs-online-color: #43b581;
-  --rs-idle-color: #faa61a;
-  --rs-dnd-color: #f04747;
-  --rs-offline-color: #636b75;
-  --rs-streaming-color: #643da7;
-  --rs-invisible-color: #747f8d;
-  --rs-phone-visible: block;
-  --rs-phone-color: var(--rs-online-color);
 }
 
 .theme-light {

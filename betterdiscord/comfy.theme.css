@@ -8,6 +8,8 @@
 */
 @import "https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css";
 @import "https://comfy-themes.github.io/Discord/betterdiscord/main.css";
+@import "https://xcruxiex.github.io/themes/core/custom-font.css";
+@import "https://xcruxiex.github.io/themes/core/badges.css";
 
 /* ═══════『 ⚠️・Important tips 』═══════
 *
@@ -111,6 +113,10 @@
   /* Streaming - Default value : #593695 */
   --streaming: #593695;
 
+  /* Better Hljs */
+  --backgroundCode: #1e2731;
+  --backgroundName: rgba(0, 0, 0, .2);
+  
   /* ═══════『 🔰 User popout 』═══════ */
 
   /* Playing wave color */
